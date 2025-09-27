@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrap Ecommerce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a Scrap Ecommerce</h1>
+        <button id="favorite-btn" class="btn btn-primary">Agregar a Favoritos</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#favorite-btn').click(function() {
+                alert('Producto agregado a favoritos!');
+            });
+        });
+    </script>
+</body>
+</html>
